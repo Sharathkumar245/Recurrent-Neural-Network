@@ -9,4 +9,10 @@ To reach the final goal that is to predict the data or transliteration of the gi
 # Attention and without Attention
 We have added here the two different kinds of classes for the Decoder that which will consider the Attention in one and other without attention and the classes are like **attention_add_decoder** attention added decoder and **Decoder** for without attention.
 
+# Creation of the vocabulary for each language (inputs and outputs of the points)
+In this the data that was provided in the data is the form of langauge and to convert it into vectors, we should first make the vocabulary for this by traversing the whole dataset for each train dataset and find the vocabulary elements.
 
+
+# Convertion of the given point to the vectors
+In this we just traverse to the every point in the given dataset and the convert those data points to the corresponding vectors that 
+To make the vector with feasible sizes we need to find the maximum data point (data) size.
