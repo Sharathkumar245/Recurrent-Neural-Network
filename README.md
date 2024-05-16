@@ -39,3 +39,11 @@ This will help to merge these two RNN modelled components (Encoders, Decoders). 
 This enables the model to enable the model to train in the pair of the input(sequence of letters(vectored representation)) this will let the other parameters of both encoders and decoders learn, while minimizing the loss. <br>
 This sequence to sequence are used cause we are dealing with the different lengthed sequences. <br>
 This return the model that was trained on the particular train data that we provided. <br>
+
+# Created the CSV files for the predictions
+In this after the model is trained we can be able to use that trained model on the validation dataset or test data set.<br>
+To create the CSV files we imported the library for CSV. <br>
+Now when we trained our model and the output values are also vectors of number according to the indeces of the vocabulary of the particular langauge.<br>
+We then called another function **vector_to_actual_words** this function will help to convert the vectorial representation of the output back to the actual languagial representation and this function return the list of the input and actual and the predicted words.<br> 
+After converting back to the letters this will be written into the CSV files that were we have given the path. <br>
+
