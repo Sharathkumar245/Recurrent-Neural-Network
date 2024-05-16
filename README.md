@@ -34,3 +34,8 @@ To the decoder the output of the encoder is also considered as the one of the in
 From the above discussion we came to get some kind of understanding that if we know the relative relation then it would be much more effecient and better model.<br>
 for the same we created another class like the attention_added_decoder.<br>
 
+# Sequence to Sequence 
+This will help to merge these two RNN modelled components (Encoders, Decoders). <br>
+This enables the model to enable the model to train in the pair of the input(sequence of letters(vectored representation)) this will let the other parameters of both encoders and decoders learn, while minimizing the loss. <br>
+This sequence to sequence are used cause we are dealing with the different lengthed sequences. <br>
+This return the model that was trained on the particular train data that we provided. <br>
