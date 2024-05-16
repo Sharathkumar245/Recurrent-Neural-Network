@@ -18,5 +18,5 @@ In this the data that was provided in the data is the form of langauge and to co
 # Convertion of the given point to the vectors
 In this we need to traverse to the every point in the given dataset and the convert those data points to the vectors that and the values with which we are creating these vectors are according to the corresponding elements and the positions of that particular letter in the vocabulary list of their respective languages.<br>
 To make the vector with feasible sizes we need to find the maximum data point (data) size.<br>
-By finding the maximum length to make the vectors not to be dimensionally mismatching when the operations are applying on it we added the remaining bits dummy with zeros as the values at the respective free slots this makes the <br>
+By finding the maximum length to make the vectors not to be dimensionally mismatching when the operations are applying on it we added the remaining bits dummy with zeros as the values at the respective free slots this makes the vector to be same size for all the data points as we take the maximum sized input to the create the vectors. <br>
 
