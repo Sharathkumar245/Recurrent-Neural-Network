@@ -1,4 +1,4 @@
-# assignment3_dl
+# DL_assignment_3
 In this assignment we basically try to predict the translated word from one language to another language. So baically this is called as transliteration in more technoncal terms. Here we used a dataset set **(aksharantar)** 
 
 # libraries we used
