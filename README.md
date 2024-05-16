@@ -20,3 +20,17 @@ In this we need to traverse to the every point in the given dataset and the conv
 To make the vector with feasible sizes we need to find the maximum data point (data) size.<br>
 By finding the maximum length to make the vectors not to be dimensionally mismatching when the operations are applying on it we added the remaining bits dummy with zeros as the values at the respective free slots this makes the vector to be same size for all the data points as we take the maximum sized input to the create the vectors. <br>
 
+# Encoder 
+We decleared encoder as a class and it will take all the arguements that are necessary to like then number of encoder layers, number of decoder layers, number of batch size, embedding size, cell type (this tells that what kind of varient of RNN we want to use like GRU, RNN, LSTM), bi-directional, these are some of the parameters that we need to consider of the encoder.<br>
+This will take the input data (english language word(vectored representation)) and do the forward propagation according to the cell type that we selected this tells the information. <br>
+After the forward propagation is done we will take the we return the outputs and the hidden states (h) according to the cell types. <br>
+These can be used as the inputs to the decoder and then the decoder will produce the outputs ( targeted word representation of the given input word). <br>
+
+# Decoder
+We decleared this decoder as a class and in the same way as the encoder, decoder too takes the inputs and then produce the inputs like the decoder layers and all the things. <br>
+To the decoder the output of the encoder is also considered as the one of the inputs, In the case of **Without attention** this will not consider the relative relations between the letter and this will make the model to be somewhat less efficient than the model in which we are considering the **attention** feature in the code.<br>
+
+# attention added decoder
+From the above discussion we came to get some kind of understanding that if we know the relative relation then it would be much more effecient and better model.<br>
+for the same we created another class like the attention_added_decoder.<br>
+
