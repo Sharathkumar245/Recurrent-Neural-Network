@@ -2,7 +2,7 @@
 In this assignment we basically try to predict the translated word from one language to another language. So baically this is called as transliteration in more technoncal terms. Here we used a dataset set **(aksharantar)** 
 
 # libraries we used
-Here in this the **PyTorch** library will allow us to make the operations much more easier by letting us using the inbuilt functions and we don't need to write the codes from scratch. These operations also took as minimum time by providing optimized snippets for those inbuilt functions.<br>
+Here in this the **PyTorch** library will allow us to make the operations much more easier by letting us using the inbuilt functions and we don't need to write the codes from scratch. These operations also took as minimum time by providing optimized snippets for those inbuilt functions. <br>
 We used **Wandb.ai** for the plots that which will help us to understand how the parameters in the model are correlated and provide us a clear visual representations like graphs and plots. For this we need to connect to the wandb with a private key(activation key). <br>
 # Description about the model that we have designed.
 Here for this assignment convertion from the language that we selected is the from "English" to "telugu" from the dataset **akshantar**.<br>
