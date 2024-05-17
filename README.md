@@ -1,6 +1,8 @@
 # DL_assignment_3
 In this assignment we basically try to predict the translated word from one language to another language. So baically this is called as transliteration in more technoncal terms. Here we used a dataset set **(aksharantar)** 
-
+# How to run the codes
+Here we are providing two ways like .ipynb and .py files these two can be executed one online and like the inputs in the .ipynb files are providing using the **Wandb.ai** form this we can configure the input parameters to the code, wandb can provide us the plots for the accuracies and losses and this will help to get the idea about how the model is behaving according to the different parameters, also provide the correlations betweeen the parameters and the goals of the model that we are training for.
+The second file .py can be able to run on the local device by giving the particular locations(paths) to the dataset and we can execute the code in our local system this can also be run in the colab or any other .py file supportive compilers too.
 # libraries we used
 Here in this the **PyTorch** library will allow us to make the operations much more easier by letting us using the inbuilt functions and we don't need to write the codes from scratch. These operations also took as minimum time by providing optimized snippets for those inbuilt functions. <br>
 We used **Wandb.ai** for the plots that which will help us to understand how the parameters in the model are correlated and provide us a clear visual representations like graphs and plots. For this we need to connect to the wandb with a private key(activation key). <br>
