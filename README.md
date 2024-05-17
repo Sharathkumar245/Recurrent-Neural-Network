@@ -49,3 +49,10 @@ Now when we trained our model and the output values are also vectors of number a
 We then called another function **vector_to_actual_words** this function will help to convert the vectorial representation of the output back to the actual languagial representation and this function return the list of the input and actual and the predicted words.<br> 
 After converting back to the letters this will be written into the CSV files that were we have given the path. <br>
 
+# recurrent_nerual_network
+This is a function that will be helpful to linkup all the the different classes and the operations like the encoder hidden state is passed as an input the decoder file and then pass these two to the seq_to_seq class and cotinue the operation and produce the outputs to the particular input.<br>
+Now here we will calculate the losses and the accuracies on the train,test and valid datasets.
+
+# Vectors_to_words
+This function will retreive back the actual words from the given vectorial representation of a sequence by which we can create the .csv files and be able to match weather the expected and the predicted values are matched with each other or not. <br>
+For this we used the eng_vocab and tel_vocab lists where we stored the letters or tokens of the sequences.<br>
